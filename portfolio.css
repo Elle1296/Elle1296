@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #1b1b1b;
+    color: white;
+    padding: 20px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    margin: 0;
+  }
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+li a:hover {
+    background-color: #ecdbdb;
+  }
+
+.nav-line {
+    height: 2px;
+    background-color: #877f7f; 
+    margin-top: 10px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.profile-card {
+    background-color: #ffffff;
+    color: #333;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 12px;
+    text-align: center;
+    width: 500px;
+}
+
+.profile-photo {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.profile-card h2 {
+    font-size: 22px;
+    margin: 15px 0;
+}
+
+.contact {
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: #686767;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    background-color: #877f7f;
+}
+
+.main-content-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    float: left;
+}
+
+.main-content-container > h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.main-content-container > div {
+  color: #f1f1f1;
+  margin: 10px;
+  font-size: 20px;
+  position: relative;
+}
+.main-content-container > div > ul {
+    color: white;
+    background-color: #1b1b1b;
+
+}
+
+.container1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 10px;
+    color: black ;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: white;
+}
+
+.subtitle {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.author {
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.contact-section {
+    background-color: #ecd1eb;
+    padding: 20px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    font-size: 16px;
+}
+
+.contact-section img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.service-box {
+    position: relative;
+    background-color: #ecd1eb;
+    padding: 20px;
+    flex: 1;
+    border-radius: 10px;
+    border: 10px solid #ffffff;
+}
+
+.travel p {
+    margin-top: 20px;
+}
+.korea {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.hike {
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+
+.service-box h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.homecoding {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.service-box ul {
+    list-style-type: none;
+    line-height: 1.8;
+}
